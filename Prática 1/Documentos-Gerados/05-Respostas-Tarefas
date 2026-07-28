@@ -1,0 +1,36 @@
+**Tarefa:**
+1. No **Claude**, projete e execute uma estratégia de análise em 3 etapas, usando engenharia de contexto:
+   
+   - **Etapa 1 — Visão geral:** Forneça ao Claude apenas os títulos, metadados e resumos dos 5 documentos (não o conteúdo completo). Peça um mapa de temas cobertos e hipóteses de gaps.
+    <!--R: Gerado os resumos para trabalho a partir dos arquivos originais, e salvos no diretório "Resumos-Discovery". Quanto aos mapa de temas cobertos e hipóteses de gaps, gerados e salvos no diretório "Documentos-Gerados", com os nomes "01-mapa-temas-cobertos.md" e "02-hipoteses-gaps.md" -->
+   
+   - **Etapa 2 — Análise profunda:** Com base no mapa da etapa 1, selecione os 2 documentos que mais precisam de análise (ex: os dois PROC-042 contraditórios). Forneça o conteúdo completo apenas desses 2 e peça análise de inconsistências.
+    <!--R: Solicitado uma analise de quais os documentos eram os mais contraditórios encontrados documentos gerados na etapa1 e foram apontados o "PROC-042-frete-especial-v1.md" e "PROC-042-v2-frete-especial-revisado.md". A analise de inconsistência foi salva no diretório "Documentos-Gerados", com o nome "03-analise-inconsistencias-proc042-v1-v2.md" -->
+
+   - **Etapa 3 — Cruzamento:** Forneça ao Claude o output das etapas 1 e 2 junto com o FAQ-Atendimento completo. Peça que cruze as inconsistências encontradas com as práticas informais do FAQ.
+    <!--R: A analise de cruzamento dos documentos foi salva no diretório "Documentos-Gerados", com o nome "04-FAQ-Inconsistencias-praticas-informais.md" -->
+
+2. Para cada etapa, documente: por que escolheu fornecer essa informação nessa ordem (decisão de contexto), o que obteve como output, e como a qualidade variou entre as etapas.
+    <!--R: A descrição segue abaixo e em caso de dúvidas, o histórico de prompts está salvo no diretório Prompts-Histórico.
+    Etapa 1 — Antes de tudo, gerei resumos estruturados de cada um dos 5 arquivos-fonte, para servir de insumo de trabalho. Com base nesses resumos (não os documentos completos), pois o objetivo aqui era visão panorâmica, sem o ruído do texto integral. 
+        Output: resumos salvos em Resumos-Discovery; mapa de temas e hipóteses de gaps salvos em Documentos-Gerados (01-mapa-temas-cobertos.md e 02-hipoteses-gaps.md). 
+        Qualidade: boa para apontar onde olhar, mas superficial — não comprovava divergências com precisão.
+    Etapa 2 — Os 2 documentos foram escolhidos com base no nível de relevância indicado pela etapa anterior (PROC-042 v1 e v2, sinalizados como P1-Crítico no mapa e nos gaps). Com o alvo já definido, fazia sentido dar o conteúdo integral só deles: escopo estreito permite profundidade sem sobrecarregar o contexto. 
+        Output: análise de inconsistências salva em Documentos-Gerados (03-analise-inconsistencias-proc042-v1-v2.md). 
+        Qualidade: salto de precisão em relação à etapa 1.
+    Etapa 3 — Entrei com os outputs já prontos das etapas 1 e 2 (não os documentos originais de novo) mais o FAQ completo, reaproveitando a análise já feita. 
+        Output: cruzamento com práticas informais salvo em Documentos-Gerados (04-FAQ-Inconsistencias-praticas-informais.md). 
+        Qualidade: mais alta em um ponto específico — confirmação na prática real, algo que nenhuma etapa isolada provaria sozinha.-->
+
+3. Identifique ao menos 2 riscos que encontrou e descreva como levaria isso para o discovery humano.
+    <!--R: Os dois riscos escolhidos para o discovery humano seriam:
+     GAP-01 | Governança de versões PROC-042 — sustentado por INC-01/INC-02 (doc 03) e confirmado em campo por INC-FAQ-02/INC-FAQ-09 (doc 04). Levaria ao discovery humano via entrevistas em profundidade com Compliance, Jurídico e Diretoria Comercial, para entender por que a v2 nunca foi formalizada e quem tem autoridade sobre isso — sem buscar decidir qual versão prevalece nesta fase. Mapeamento de jornada e um levantamento exploratório de contratos vigentes (INC-FAQ-03) ajudariam a dimensionar o alcance real da divergência.
+     GAP-04 | Dependência de conhecimento tácito — ninguém mapeou ainda quem são as "pessoas que sabem" (pendência desde a sessão 002), o que já é um risco de continuidade. Usaria shadowing e entrevistas em profundidade para entender a extensão e criticidade desse conhecimento (em quantos processos, com que impacto se a pessoa saísse) — sem ainda tentar documentá-lo, o que seria uma fase posterior. Mapeamento de jornada ajudaria a localizar os pontos de decisão onde esse conhecimento é o único caminho.
+     Juntos, os dois riscos mostram duas faces da mesma exposição: falta de decisão institucional formalizada (GAP-01) e conhecimento crítico que nunca saiu da cabeça de uma pessoa (GAP-04). Nesta fase, o objetivo é dimensionar tamanho e urgência — decisão e formalização ficam para depois.-->
+
+4. Reflexão: o que teria acontecido se você tivesse colado os 5 documentos completos de uma vez no primeiro prompt? Compare com o resultado da abordagem progressiva.
+    <!--R: Ao colarmos os 5 documentos de uma vez no primeiro prompt, o Claude teria uma "overdose" de informações, introduzindo ruido em qualquer parte do trabalho, além de "esgotar" a janela de contexto, e conforme o trabalho andesse teriamos a deteriorização do contexto, pela janela estar saturada de informações irrelevantes ou ruidosa. Ao usarmos abordagem progressiva, utilizamos com sabedoria os recursos finitos da ferramenta, como por exemplo a janela de contexto e também "orientando" o Claude para focar no trabalho a ser feito, sem dar a ele "mais do que precisa", evitando ruido e informações irrelevantes, além de construir um caminho de trabalho que pode ser reaproveitado total ou parcialmente para atualização ou em um novo trabalho. --> 
+
+**Entregável:** A estratégia de contexto documentada, os 3 prompts com outputs, a análise crítica de cada etapa, a reflexão sobre progressive disclosure, e o mapa de riscos.
+
+---

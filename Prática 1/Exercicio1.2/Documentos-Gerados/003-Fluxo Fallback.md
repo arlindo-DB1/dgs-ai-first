@@ -1,6 +1,6 @@
 # Fluxo de Fallback — Assistente sem Confiança ou Atendente Discorda
 
-> **Versão:** 1.1
+> **Versão:** 1.2
 > **Data da versão:** 30/07/2026
 > **Responsável:** DB1-Arlindo
 > **Status:** Aprovado
@@ -52,7 +52,7 @@ Então a resposta é suspensa e não é utilizada, o cliente é comunicado de qu
 6. O atendente escala o chamado ao Supervisor/Área especializada correspondente ao tema.
 7. O Supervisor/Área especializada resolve o caso com base em julgamento humano, apoiado por documentação auxiliar e dentro de sua alçada de resolução, e responde ao atendente com a orientação para aquele caso específico.
 8. O atendente usa essa orientação para concluir o atendimento ao cliente. A interação pode **continuar** (surge uma nova dúvida, retomando o Fluxo Principal) ou **se encerrar** (não há mais dúvidas, o chamado é concluído).
-9. **Tratamento de conteúdo por gatilho** *(detalhado no Fluxo de Feedback)*:
+9. **Tratamento de conteúdo por gatilho** *(ocorre em paralelo aos passos 5-8, independente da resolução do atendimento; detalhado no Fluxo de Feedback)*:
    - Ambiguidade entre documentos válidos → o caso é sinalizado para esclarecimento futuro da fronteira entre os documentos envolvidos.
    - Lacuna real de documentação → o caso é registrado como "gap de cobertura documental", e uma solicitação formal de criação/atualização de política é enviada ao Responsável pela Base.
    - Discordância do atendente → a resposta já suspensa no passo 4 permanece indisponível até revisão do Responsável pela Base.
@@ -82,3 +82,4 @@ Lista completa das premissas definidas em `001-Premissas.md`, mantida por padrã
 |---|---|---|---|
 | 1.0 | 30/07/2026 | DB1-Arlindo | Criação do documento — versão aprovada do Fluxo de Fallback |
 | 1.1 | 30/07/2026 | DB1-Arlindo | Guardrail de decisão entre fontes confirmado e ampliado (Opção B) — deixa de ser restrito à ambiguidade entre documentos distintos e passa a cobrir qualquer sinal de conflito, incluindo eventual falha de governança de versão |
+| 1.2 | 30/07/2026 | DB1-Arlindo | Passo 9 explicitado como paralelo aos passos 5-8 (independente da resolução do atendimento) — divergência identificada ao montar o prompt de diagrama BPMN |

@@ -4,7 +4,7 @@ Sua tarefa é avaliar o entregável de um participante usando as skills de avali
 INFORMAÇÕES DO EXERCÍCIO:
 - Papel: [Product Specialist]
 - Cenário: 1 — Fase de Entendimento e Contexto
-- Exercício: 1.2 — Design de jornada com componente de IA
+- Exercício: 1.3 — Especificação de requisitos de RAG do ponto de vista do produto
 
 DOCUMENTOS FORNECIDOS:
 1. Skill de avaliação Foundation (framework comum) que esta no caminho "C:\Users\arlindo.junior\dgs-ai-first\Prática 1\zz-Correções\Exercicio1.2\Avaliacao-foundation.md"

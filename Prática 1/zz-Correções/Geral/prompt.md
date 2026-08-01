@@ -7,9 +7,9 @@ INFORMAÇÕES DO EXERCÍCIO:
 - Exercício: 1.3 — Especificação de requisitos de RAG do ponto de vista do produto
 
 DOCUMENTOS FORNECIDOS:
-1. Skill de avaliação Foundation (framework comum) que esta no caminho "C:\Users\arlindo.junior\dgs-ai-first\Prática 1\zz-Correções\Exercicio1.2\Avaliacao-foundation.md"
-2. Skill de avaliação do papel (critérios específicos) e 3. Enunciado completo do exercício (contexto, inputs, tarefa, critérios) que estão em um unico arquivo no caminho "C:\Users\arlindo.junior\dgs-ai-first\Prática 1\zz-Correções\Exercicio1.2\avaliacao-[papel]"
-4. Entregável do participante (o que ele produziu) que estão no diretório "C:\Users\arlindo.junior\dgs-ai-first\Prática 1\Exercicio1.2"
+1. Skill de avaliação Foundation (framework comum) que esta no caminho "C:\Users\arlindo.junior\dgs-ai-first\Prática 1\zz-Correções\Exercicio1.3\Avaliacao-foundation.md"
+2. Skill de avaliação do papel (critérios específicos) e 3. Enunciado completo do exercício (contexto, inputs, tarefa, critérios) que estão em um unico arquivo no caminho "C:\Users\arlindo.junior\dgs-ai-first\Prática 1\zz-Correções\Exercicio1.3\avaliacao-[papel]"
+4. Entregável do participante (o que ele produziu) que estão no diretório "C:\Users\arlindo.junior\dgs-ai-first\Prática 1\Exercicio1.3"
 
 INSTRUÇÕES DE AVALIAÇÃO:
 

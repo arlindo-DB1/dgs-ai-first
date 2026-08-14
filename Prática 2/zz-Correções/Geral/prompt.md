@@ -4,12 +4,12 @@ Sua tarefa é avaliar o entregável de um participante usando as skills de avali
 INFORMAÇÕES DO EXERCÍCIO:
 - Papel: [Product Specialist]
 - Cenário: 2 — Estruturação do Trabalho
-- Exercício: [Exercício 2.2 — Definição de guardrails como artefato de produto]
+- Exercício: [Exercício 2.3 — Participação na construção do AGENTS.md do projeto]
 
 DOCUMENTOS FORNECIDOS:
 1. Skill de avaliação Foundation (framework comum — cenário 2) que se encontra no caminho "C:\Users\arlindo.junior\dgs-ai-first\Prática 2\zz-Correções\Geral\avaliacao-foundation.md"
 2. Skill de avaliação do papel (critérios específicos — cenário 2) e 3. Enunciado completo do exercício (contexto, inputs, tarefa, critérios) que se encontra no caminho "C:\Users\arlindo.junior\dgs-ai-first\Prática 2\zz-Correções\Geral\avaliacao-product-specialist.md"
-4. Entregável do participante (o que ele produziu) que se encontram no diretório "C:\Users\arlindo.junior\dgs-ai-first\Prática 2\Exercicio2.2"
+4. Entregável do participante (o que ele produziu) que se encontram no diretório "C:\Users\arlindo.junior\dgs-ai-first\Prática 2\Exercicio2.3"
 
 INSTRUÇÕES DE AVALIAÇÃO:
 

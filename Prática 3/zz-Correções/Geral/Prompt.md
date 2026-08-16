@@ -4,12 +4,12 @@ Sua tarefa é avaliar o entregável de um participante usando as skills de avali
 INFORMAÇÕES DO EXERCÍCIO:
 - Papel: [Product Specialist]
 - Cenário: 3 — Governança e Validação
-- Exercício: [3.1 — Revisão crítica das respostas do assistente]
+- Exercício: [Exercício 3.2 — Harness de produto para melhoria contínua]
 
 DOCUMENTOS FORNECIDOS:
 1. Skill de avaliação Foundation (framework comum — cenário 3) que esta no caminho "C:\Users\arlindo.junior\dgs-ai-first\Prática 3\zz-Correções\Geral\avaliacao-foundation.md"
 2. Skill de avaliação do papel (critérios específicos — cenário 3) e 3. Enunciado completo do exercício (contexto, inputs, tarefa, critérios) que está no caminho "C:\Users\arlindo.junior\dgs-ai-first\Prática 3\zz-Correções\Geral\avaliacao-product-specialist.md"
-4. Entregável do participante (o que ele produziu) que esta no caminho: "C:\Users\arlindo.junior\dgs-ai-first\Prática 3\Exercício3.1"
+4. Entregável do participante (o que ele produziu) que esta no caminho: "C:\Users\arlindo.junior\dgs-ai-first\Prática 3\Exercício3.2"
 
 INSTRUÇÕES DE AVALIAÇÃO:
 
